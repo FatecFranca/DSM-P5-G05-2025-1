@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|c:\\users\\jkaue\\onedrive\\documentos\\pi5\\pi5\\sobrepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|solutionrelative:pi5\\sobrepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|c:\\users\\jkaue\\onedrive\\documentos\\pi5\\pi5\\menuprincipal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|solutionrelative:pi5\\menuprincipal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|c:\\users\\jkaue\\onedrive\\documentos\\pi5\\pi5\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|solutionrelative:pi5\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|c:\\users\\jkaue\\onedrive\\documentos\\pi5\\pi5\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|solutionrelative:pi5\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|c:\\users\\jkaue\\onedrive\\documentos\\pi5\\pi5\\formpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|solutionrelative:pi5\\formpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|c:\\users\\jkaue\\onedrive\\documentos\\pi5\\pi5\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|solutionrelative:pi5\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|c:\\users\\jkaue\\onedrive\\documentos\\pi5\\pi5\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|solutionrelative:pi5\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|c:\\users\\jkaue\\onedrive\\documentos\\pi5\\pi5\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|solutionrelative:pi5\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|c:\\users\\jkaue\\onedrive\\documentos\\pi5\\pi5\\sobrepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|solutionrelative:pi5\\sobrepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|c:\\users\\jkaue\\onedrive\\documentos\\pi5\\pi5\\formpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|solutionrelative:pi5\\formpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|c:\\users\\jkaue\\onedrive\\documentos\\pi5\\pi5\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{566E9D73-EB1F-48CA-885D-E9E450B81541}|PI5\\PI5.csproj|solutionrelative:pi5\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\HomePage.xaml",
+              "RelativeDocumentMoniker": "PI5\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\HomePage.xaml",
+              "RelativeToolTip": "PI5\\HomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-01T18:08:41.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\MainPage.xaml",
+              "RelativeDocumentMoniker": "PI5\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\MainPage.xaml",
+              "RelativeToolTip": "PI5\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-01T18:07:48.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "PI5\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "PI5\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:59:30.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SobrePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\SobrePage.xaml.cs",
+              "RelativeDocumentMoniker": "PI5\\SobrePage.xaml.cs",
+              "ToolTip": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\SobrePage.xaml.cs",
+              "RelativeToolTip": "PI5\\SobrePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:56:00.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SobrePage.xaml",
+              "DocumentMoniker": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\SobrePage.xaml",
+              "RelativeDocumentMoniker": "PI5\\SobrePage.xaml",
+              "ToolTip": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\SobrePage.xaml",
+              "RelativeToolTip": "PI5\\SobrePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-01T17:56:01.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuPrincipal.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\MenuPrincipal.xaml.cs",
+              "RelativeDocumentMoniker": "PI5\\MenuPrincipal.xaml.cs",
+              "ToolTip": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\MenuPrincipal.xaml.cs",
+              "RelativeToolTip": "PI5\\MenuPrincipal.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T18:25:55.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormPage.xaml",
+              "DocumentMoniker": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\FormPage.xaml",
+              "RelativeDocumentMoniker": "PI5\\FormPage.xaml",
+              "ToolTip": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\FormPage.xaml",
+              "RelativeToolTip": "PI5\\FormPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-01T17:56:10.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\App.xaml.cs",
+              "RelativeDocumentMoniker": "PI5\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\App.xaml.cs",
+              "RelativeToolTip": "PI5\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:56:11.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\FormPage.xaml.cs",
+              "RelativeDocumentMoniker": "PI5\\FormPage.xaml.cs",
+              "ToolTip": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\FormPage.xaml.cs",
+              "RelativeToolTip": "PI5\\FormPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:56:13.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\App.xaml",
+              "RelativeDocumentMoniker": "PI5\\App.xaml",
+              "ToolTip": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\App.xaml",
+              "RelativeToolTip": "PI5\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-01T17:54:41.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "PI5\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\jkaue\\OneDrive\\Documentos\\PI5\\PI5\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "PI5\\Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-05-01T17:50:44.359Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
