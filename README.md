@@ -6,5 +6,3 @@ Repositório do GRUPO 05 do Projeto Interdisciplinar do 5º semestre DSM 2025/1.
   <li>JOAO PEDRO ANDRADE CINTRA</li>
   <li>KAUE JOSE ABDALLA LEAL</li>
 </ul>
-
-
