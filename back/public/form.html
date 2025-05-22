@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulário</title>
+</head>
+<body>
+  <h1>Cadastro de Usuário</h1>
+  <form id="userForm">
+    <input type="text" name="nome" placeholder="Nome" required><br>
+    <input type="email" name="email" placeholder="Email" required><br>
+    <input type="number" name="idade" placeholder="Idade" required><br>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script>
+    document.getElementById('userForm').addEventListener('submit', async function (e) {
+      e.preventDefault();
+      const data = {
+        nome: this.nome.value,
+        email: this.email.value,
+        idade: parseInt(this.idade.value)
+      };
+
+      const res = await fetch('/api/users', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+
+      if (res.ok) alert('Usuário cadastrado com sucesso!');
+      else alert('Erro ao cadastrar');
+    });
+  </script>
+</body>
+</html>
