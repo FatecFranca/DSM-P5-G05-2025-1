@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PI5.SobrePage"
+             Title="Sobre">
+
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Label Text="Sobre GlicGuard" 
+                   FontSize="24" 
+                   Padding="10"
+                   FontAttributes="Bold"
+                   TextColor="#007bff"
+                   HorizontalOptions="Center" />
+            <Label Text="O GlicGuard é um aplicativo mobile desenvolvido com .NET MAUI e C#, que utiliza inteligência artificial para avaliar o risco de diabetes com base em dados fornecidos pelo usuário. Através de um formulário simples e intuitivo, o usuário insere informações clínicas e de estilo de vida, permitindo que o sistema analise e forneça uma estimativa personalizada do risco de desenvolvimento de diabetes." 
+                   FontSize="16" 
+                   Margin="6"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Start"
+                   HorizontalOptions="Center"/>
+            <Label Text="A interface do aplicativo é baseada em um formulário, onde o usuário responde as perguntas e recebe, em tempo real, uma análise do seu risco de diabetes. Essa abordagem facilita a compreensão e promove uma experiência mais engajadora, incentivando a conscientização sobre a saúde e a prevenção da doença." 
+                   FontSize="16" 
+                   Margin="6"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Start"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="Desenvolvido por:" 
+                   FontSize="20" 
+                   FontAttributes="Bold"
+                   Margin="0,20,0,10"
+                   TextColor="Black"
+                   HorizontalOptions="Center"/>
+
+            <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="SpaceAround">
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="10">
+                    <Image Source="kauel.png" 
+                           HeightRequest="100" 
+                           WidthRequest="100"
+                           Aspect="AspectFill"
+                           HorizontalOptions="Center">
+                        <Image.Clip>
+                            <EllipseGeometry RadiusX="50" RadiusY="50" Center="50,50" />
+                        </Image.Clip>
+                    </Image>
+                    <Label Text="Kauê José Abdalla Leal" 
+                           FontSize="16" 
+                           HorizontalOptions="Center"
+                           TextColor="Black"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="10">
+                    <Image Source="claudiom.png"
+                           HeightRequest="100" 
+                           WidthRequest="100"
+                           Aspect="AspectFill"
+                           HorizontalOptions="Center">
+                        <Image.Clip>
+                            <EllipseGeometry RadiusX="50" RadiusY="50" Center="50,50" />
+                        </Image.Clip>
+                    </Image>
+                    <Label Text="Cláudio Matos" 
+                           FontSize="16" 
+                           HorizontalOptions="Center"
+                           TextColor="Black"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="10">
+                    <Image Source="leonardov.png"
+                           HeightRequest="100" 
+                           WidthRequest="100"
+                           Aspect="AspectFill"
+                           HorizontalOptions="Center">
+                        <Image.Clip>
+                            <EllipseGeometry RadiusX="50" RadiusY="50" Center="50,50" />
+                        </Image.Clip>
+                    </Image>
+                    <Label Text="Leonardo Victor Pereira Ferreira" 
+                           FontSize="16" 
+                           HorizontalOptions="Center"
+                           TextColor="Black"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="10">
+                    <Image Source="joaop.png" 
+                           HeightRequest="100" 
+                           WidthRequest="100"
+                           Aspect="AspectFill"
+                           HorizontalOptions="Center">
+                        <Image.Clip>
+                            <EllipseGeometry RadiusX="50" RadiusY="50" Center="50,50" />
+                        </Image.Clip>
+                    </Image>
+                    <Label Text="João Pedro Andrade Cintra" 
+                           FontSize="16" 
+                           HorizontalOptions="Center"
+                           TextColor="Black"/>
+                </StackLayout>
+            </FlexLayout>
+            
+            <Label Text="Este projeto tem o objetivo de explorar o potencial da inteligência artificial na área da saúde e oferecer uma ferramenta acessível para a prevenção do diabetes." 
+                   FontSize="16" 
+                   Margin="6,20,6,6"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Start"
+                   HorizontalOptions="Center"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
