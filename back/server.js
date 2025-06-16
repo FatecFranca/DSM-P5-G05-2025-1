@@ -17,4 +17,8 @@ sequelize.sync().then(() => {
   app.listen(process.env.PORT, () => {
     console.log(`🚀 Servidor rodando em http://localhost:${process.env.PORT}`);
   });
+
+  const formRoutes = require('./routes/FormRoutes');
+app.use('/api', formRoutes);
+
 });
