@@ -9,9 +9,8 @@ const User = sequelize.define('TBUSERS', {
   email: {
     type: DataTypes.STRING,
     allowNull: false,
-  },
-  idade: {
-    type: DataTypes.INTEGER,
+  },  senha: {
+    type: DataTypes.STRING,
     allowNull: false,
   }
 }, {
