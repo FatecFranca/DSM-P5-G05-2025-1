@@ -2,9 +2,18 @@ const User = require('../models/User');
 
 exports.createUser = async (req, res) => {
   try {
+    // Validação básica dos campos obrigatórios
+    const requiredFields = ['nome', 'email', 'senha'];
+    for (const field of requiredFields) {
+      if (!req.body[field]) {
+        return res.status(400).json({ erro: `Campo obrigatório ausente: ${field}` });
+      }
+    }
+    
     const user = await User.create(req.body);
     res.status(201).json(user);
   } catch (err) {
+    console.error('Erro ao criar usuário:', err);
     res.status(400).json({ erro: err.message });
   }
 };
