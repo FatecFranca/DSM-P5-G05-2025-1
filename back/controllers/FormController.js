@@ -24,7 +24,7 @@ exports.predict = async (req, res) => {
   try {
     const inputData = req.body;
     // Usa o Python do ambiente virtual
-    const pythonPath = path.resolve(__dirname, '../../.venv/Scripts/python.exe');
+    const pythonPath = path.resolve(__dirname, '../.venv/Scripts/python.exe');
     const scriptPath = path.resolve(__dirname, '../predict.py');
     const python = spawn(pythonPath, [scriptPath, JSON.stringify(inputData)]);
     let result = '';

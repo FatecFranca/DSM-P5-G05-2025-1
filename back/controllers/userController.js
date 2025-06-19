@@ -47,3 +47,23 @@ exports.deleteUser = async (req, res) => {
     res.status(404).json({ erro: 'Usuário não encontrado' });
   }
 };
+
+exports.loginUser = async (req, res) => {
+  const { email, senha } = req.body;
+  if (!email || !senha) {
+    return res.status(400).json({ erro: 'Email e senha são obrigatórios' });
+  }
+  try {
+    const user = await User.findOne({ where: { email } });
+    if (!user) {
+      return res.status(401).json({ erro: 'Usuário não encontrado' });
+    }
+    if (user.senha !== senha) {
+      return res.status(401).json({ erro: 'Senha incorreta' });
+    }
+    // Login bem-sucedido
+    res.json({ msg: 'Login realizado com sucesso', user });
+  } catch (err) {
+    res.status(500).json({ erro: 'Erro ao realizar login' });
+  }
+};
