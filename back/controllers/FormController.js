@@ -1,7 +1,9 @@
 const Form = require('../models/Form');
 const Result = require('../models/Result');
+const User = require('../models/User');
 const { spawn } = require('child_process');
 const path = require('path');
+const fs = require('fs');
 
 exports.createFormEntry = async (req, res) => {
   try {
@@ -23,8 +25,12 @@ exports.createFormEntry = async (req, res) => {
 exports.predict = async (req, res) => {
   try {
     const inputData = req.body;
-    // Usa o Python do ambiente virtual
-    const pythonPath = path.resolve(__dirname, '../.venv/Scripts/python.exe');
+    // Usa o Python do ambiente virtual se existir, senão usa o python do sistema
+    let pythonPath = 'python';
+    const venvPython = path.resolve(__dirname, '../.venv/Scripts/python.exe');
+    if (fs.existsSync(venvPython)) {
+      pythonPath = venvPython;
+    }
     const scriptPath = path.resolve(__dirname, '../predict.py');
     const python = spawn(pythonPath, [scriptPath, JSON.stringify(inputData)]);
     let result = '';
@@ -48,6 +54,14 @@ exports.predict = async (req, res) => {
           class: null,
           predicted: prediction.predicao
         });
+        // Atualiza o usuário com o resultado da predição
+        if (inputData.id) {
+          const user = await User.findByPk(inputData.id);
+          if (user) {
+            user.resultado_predict = prediction.predicao;
+            await user.save();
+          }
+        }
         res.json([saved]);
       } catch (e) {
         res.status(500).json({ error: 'Erro ao interpretar resposta do modelo', details: result });
