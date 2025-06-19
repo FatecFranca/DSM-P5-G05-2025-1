@@ -12,6 +12,10 @@ const User = sequelize.define('TBUSERS', {
   },  senha: {
     type: DataTypes.STRING,
     allowNull: false,
+  },
+  resultado_predict: {
+    type: DataTypes.STRING,
+    allowNull: true,
   }
 }, {
   timestamps: false, // se sua tabela não usa createdAt / updatedAt
