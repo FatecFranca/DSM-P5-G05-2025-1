@@ -4,6 +4,7 @@ const dotenv = require('dotenv');
 const sequelize = require('./models/index');
 const userRoutes = require('./routes/userRoutes');
 const formRoutes = require('./routes/FormRoutes');
+const swaggerSetup = require('./swagger');
 
 dotenv.config();
 const app = express();
@@ -14,6 +15,7 @@ app.use(express.static('public'));
 
 app.use('/api/users', userRoutes);
 app.use('/api', formRoutes);
+swaggerSetup(app);
 
 sequelize.sync().then(() => {
   app.listen(process.env.PORT, () => {
