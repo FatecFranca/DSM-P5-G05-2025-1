@@ -128,6 +128,7 @@ Este repositório contém o código-fonte do front-end desenvolvido para o PI do
 
 O(A) protótipo/documentação da aplicação pode ser visualizado no
 [Figma](https://www.figma.com/design/tiDSjI9lqf5WrJcjj1hlJ5/PI5?node-id=0-1&p=f&t=KqnyfG5y4qVUqcj5-0)
+![image](https://github.com/user-attachments/assets/20c1040a-de09-402e-b9ac-545938a4f0ea)
 
 ## Como Executar
 
