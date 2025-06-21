@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DSM-P5-G05-2025-1
 Repositório do GRUPO 05 do Projeto Interdisciplinar do 5º semestre DSM 2025/1.
 
@@ -113,13 +112,9 @@ O processamento cuidadoso dos dados foi fundamental para o sucesso na construç�
 
 ## Autor
 
-* **Seu Nome Completo** - Leovpf [(https://github.com/Leovpf)]
+Leovpf [(https://github.com/Leovpf)]
 
----
-=======
 # Front
-
-Repositório Front-end do projeto de PI do 5º semestre de DSM.
 
 ## Descrição
 
@@ -145,4 +140,3 @@ O(A) protótipo/documentação da aplicação pode ser visualizado no
    cd PI5
 
 3. Rode o código no Visual Studio com um emulador android
->>>>>>> front-repo/development
