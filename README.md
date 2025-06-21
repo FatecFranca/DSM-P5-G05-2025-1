@@ -118,7 +118,7 @@ Leovpf [(https://github.com/Leovpf)]
 
 ## Descrição
 
-Este repositório contém o código-fonte do front-end desenvolvido para o Projeto Integrador do 5º semestre do curso de Desenvolvimento de Software Multiplataforma (DSM). O objetivo é implementar a interface do usuário conforme as diretrizes do projeto.
+Este repositório contém o código-fonte do front-end desenvolvido para o PI do 5º semestre do curso de Desenvolvimento de Software Multiplataforma (DSM). O objetivo é implementar a interface do usuário conforme as diretrizes do projeto.
 
 ## Tecnologias Utilizadas
 
