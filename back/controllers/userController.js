@@ -2,7 +2,6 @@ const User = require('../models/User');
 
 exports.createUser = async (req, res) => {
   try {
-    // Validação básica dos campos obrigatórios
     const requiredFields = ['nome', 'email', 'senha'];
     for (const field of requiredFields) {
       if (!req.body[field]) {
