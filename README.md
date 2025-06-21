@@ -30,7 +30,12 @@ Repositório do GRUPO 05 do Projeto Interdisciplinar do 5º semestre DSM 2025/1.
    npm install
    ```
 
-3. **Configure as variáveis de ambiente:**
+3. **Instale as dependências do Swagger (documentação da API):**
+   ```sh
+   npm install swagger-jsdoc swagger-ui-express
+   ```
+
+4. **Configure as variáveis de ambiente:**
    - Crie um arquivo `.env` na pasta `back` com as informações do banco de dados:
      ```
      DB_NAME=nome_do_banco
@@ -41,11 +46,32 @@ Repositório do GRUPO 05 do Projeto Interdisciplinar do 5º semestre DSM 2025/1.
      ```
    - Altere os valores conforme necessário.
 
-4. **Inicie o servidor:**
+5. **Instale o Python 3:**
+   - Baixe e instale o Python 3 em https://www.python.org/downloads/
+   - Certifique-se de marcar a opção "Add Python to PATH" durante a instalação.
+
+6. **Crie e ative o ambiente virtual Python:**
+   ```sh
+   python -m venv .venv
+   # Windows:
+   .venv\Scripts\activate
+   # Linux/Mac:
+   source .venv/bin/activate
+   ```
+
+7. **Instale as dependências Python:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+8. **Inicie o servidor:**
    ```sh
    node server.js
    ```
    O servidor estará disponível em `http://localhost:3000` (ou na porta definida).
+
+9. **Acesse a documentação Swagger:**
+   - Após iniciar o servidor, acesse [http://localhost:3000/api-docs](http://localhost:3000/api-docs) para visualizar e testar a API.
 
 ---
 
@@ -54,6 +80,8 @@ Repositório do GRUPO 05 do Projeto Interdisciplinar do 5º semestre DSM 2025/1.
 - Certifique-se de que o MySQL está rodando e acessível.
 - O projeto utiliza Sequelize para ORM.
 - Para dúvidas sobre o back-end, consulte o [README do back](back/README.md).
+- O backend depende do Python 3 e das bibliotecas listadas em `requirements.txt` para rodar a predição.
+- O Swagger depende dos pacotes `swagger-jsdoc` e `swagger-ui-express`.
 
 ---
 
