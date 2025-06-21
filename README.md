@@ -12,9 +12,10 @@ Repositório do GRUPO 05 do Projeto Interdisciplinar do 5º semestre DSM 2025/1.
 ---
 
 ## Estrutura/Especificações:
-- Máquina Virtual/Servidor: Ubuntu LTS 22.04 on Microsoft Azure Cloud 
+- Máquina Virtual/Servidor: Ubuntu LTS 22.04 on Microsoft Azure Cloud
+- Firewall: UFW configurado 
 - Banco de Dados: MySQL 
-- Conexão MySQL: IP 13.68.75.61:3306
+- Host VM: glicguard.eastus2.cloudapp.azure.com
 
 ---
 
