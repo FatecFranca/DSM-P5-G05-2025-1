@@ -18,8 +18,8 @@ const User = sequelize.define('TBUSERS', {
     allowNull: true,
   }
 }, {
-  timestamps: false, // se sua tabela não usa createdAt / updatedAt
-  freezeTableName: true // impede que o Sequelize pluralize o nome
+  timestamps: false, 
+  freezeTableName: true 
 });
 
 module.exports = User;

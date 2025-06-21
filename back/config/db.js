@@ -8,7 +8,7 @@ const sequelize = new Sequelize(
   {
     host: process.env.DB_HOST,
     dialect: 'mysql',
-    logging: false, // Desativa logs para performance
+    logging: false,
     pool: {
       max: 10,
       min: 0,

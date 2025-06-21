@@ -7,7 +7,6 @@ const fs = require('fs');
 
 exports.createFormEntry = async (req, res) => {
   try {
-    // Validação básica do JSON recebido
     const requiredFields = ['preg', 'plas', 'pres', 'skin', 'insu', 'mass', 'pedi', 'age'];
     for (const field of requiredFields) {
       if (!req.body[field]) {
@@ -25,7 +24,7 @@ exports.createFormEntry = async (req, res) => {
 exports.predict = async (req, res) => {
   try {
     const inputData = req.body;
-    // Usa o Python do ambiente virtual se existir, senão usa o python do sistema
+
     let pythonPath = 'python';
     const venvPython = path.resolve(__dirname, '../.venv/Scripts/python.exe');
     if (fs.existsSync(venvPython)) {
@@ -47,14 +46,14 @@ exports.predict = async (req, res) => {
       }
       try {
         const prediction = JSON.parse(result.trim());
-        // Salva no banco de dados
+
         const saved = await Result.create({
           ...inputData,
           predicao: prediction.predicao,
           class: null,
           predicted: prediction.predicao
         });
-        // Atualiza o usuário com o resultado da predição
+
         if (inputData.id) {
           const user = await User.findByPk(inputData.id);
           if (user) {
