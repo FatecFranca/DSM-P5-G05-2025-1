@@ -74,7 +74,7 @@ Link do Vídeo Pitch: https://youtu.be/gTE4NLDaGG4
 
 9. **Acesse a documentação Swagger:**
    - Após iniciar o servidor, acesse [http://localhost:3000/api-docs](http://localhost:3000/api-docs) para visualizar e testar a API.
-
+   - Mais detalhes disponíveis em back/README.md e back/requirements.txt
 ---
 
 ## Observações
