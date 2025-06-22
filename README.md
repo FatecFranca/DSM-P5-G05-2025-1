@@ -9,6 +9,7 @@ Repositório do GRUPO 05 do Projeto Interdisciplinar do 5º semestre DSM 2025/1.
   <li>LEONARDO VICTOR PEREIRA FERREIRA</li>
 </ul>
 
+Link do Vídeo Pitch: https://youtu.be/gTE4NLDaGG4
 ---
 
 ## Estrutura/Especificações:
